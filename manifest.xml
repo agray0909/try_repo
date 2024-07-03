@@ -2,4 +2,8 @@
 <manifest>
     <remote name="github" fetch="https://github.com/" />
     <project remote="github" name="nxp-qoriq/atf.git" path="components/firmware/atf" revision="refs/tags/LSDK-21.08" />
+    <project remote="github" name="nxp-qoriq/u-boot.git" path="components/firmware/uboot" revision="refs/tags/LSDK-21.08" />
+    <project remote="github" name="nxp-qoriq/linux.git" path="components/linux/linux" revision="refs/tags/master" />
+    <project remote="github" name="nxp-qoriq/rcw.git" path="components/firmware/rcw" />
+    <project remote="github" name="buildroot/buildroot.git" path="components/rfs/rfs" />
 </manifest>
